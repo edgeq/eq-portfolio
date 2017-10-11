@@ -2,6 +2,11 @@ h1,
 h2,
 h3 {
 	font-family: 'Trirong', serif;
+  padding: 20px;
+}
+
+.h3-noPadding{
+  font-family: 'Trirong', serif;
 }
 
 p {
@@ -34,10 +39,12 @@ p {
 .eq-logo {
 	max-width: 60%;
 	margin: 0 auto ;
+  position: relative;
+  bottom: 0px;
 }
 
 .img-small {
-	max-width: 45%;
+	max-width: 30%;
 }
 
 .img-nav {
